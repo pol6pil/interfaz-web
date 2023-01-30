@@ -1,0 +1,89 @@
+@import url(./index.css);
+
+@media screen and (max-width: 640px) {
+    main div div:last-child {
+        grid-column: 1/span 2;
+    }
+
+    #tags {
+        grid-column: 1/span 2;
+    }
+
+    main>div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+    main>div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    main>div *:nth-child(even) {
+        justify-self: flex-end;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    main>div {
+        display: flex;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: var(--anchoMax);
+    min-width: var(--anchoMin);
+    width: var(--ancho);
+    margin: auto;
+    padding: 20px;
+}
+
+main>div {
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+main>img {
+    border-radius: 10px;
+}
+
+.tituloMedio {
+    align-self: center;
+}
+
+main p::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--amarillo);
+}
+
+main div div:last-child {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    width: fit-content;
+}
+
+#tags {
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    gap: 10px;
+    height: fit-content;
+}
+
+#author {
+    font-size: 18px;
+    color: var(--amarillo);
+}

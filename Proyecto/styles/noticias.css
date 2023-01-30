@@ -1,0 +1,118 @@
+@import url(./index.css);
+
+@media screen and (max-width: 640px) {
+    #filters {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #news article {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, fr);
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1920px) {
+    #news article {
+        grid-template-columns: 3fr 1fr;
+    }
+}
+
+
+h2 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+#filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+#filters div:first-child {
+    display: grid;
+    grid-template-rows: 20px 1fr;
+    gap: 10px;
+    height: fit-content;
+}
+
+#filters div:first-child div {
+    display: flex;
+    gap: 5px;
+}
+
+#news {
+    display: grid;
+    gap: 30px;
+    min-height: 1600px;
+    margin-bottom: 30px;
+}
+
+#news>h2 {
+    text-align: center;
+    font-size: 40px;
+    color: var(--grisTitulo);
+}
+
+#news>h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#news article {
+    background-color: var(--greyBg);
+    padding: 20px;
+    display: grid;
+    gap: 15px;
+    align-content: center;
+}
+
+#news h3 {
+    margin-top: 0px;
+}
+
+#news article div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#news article div:first-child>* {
+    width: fit-content;
+}
+
+#news img {
+    width: 100%;
+    min-width: 300px
+}
+
+#news article a {
+    text-decoration: none;
+}
+
+#news article a h3 {
+    font-size: 30px;
+    margin: 0px;
+    margin-bottom: 15px;
+    color: var(--grisTitulo);
+    transition: all 0.3s;
+}
+
+#news article a h3:hover {
+    color: var(--amarillo);
+    transition: all 0.3s;
+}
+
+#news article div div a {
+    color: var(--amarillo);
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+#news article div div a:hover {
+    color: var(--amarilloOscuro);
+    transition: all 0.3s;
+}
