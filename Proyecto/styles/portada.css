@@ -171,7 +171,7 @@
 
 @media screen and (min-width: 1280px) {
     #discover {
-        padding-top: 28vh;
+        padding-top: 14%;
         display: flex;
         flex-direction: column;
         justify-items: center;
