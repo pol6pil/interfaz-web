@@ -18,7 +18,7 @@
     <div id="bgBuildings">
         <div class="borde">
             <header>
-                <h1 style="display: none;">Prelude</h1>
+                <h1  role="heading" style="display: none;">Prelude</h1>
 
                 <div class="redes">
                     <a href=""><img class="logoHeader" src="./images/fb.png" alt="facebookLogo"></a>
@@ -103,24 +103,24 @@
         <div class="greybg">
             <section id="knowMore">
                 <h2 style="display: none;">Know More</h2>
-                <article>
-                    <h3>We Design</h3>
+                <article aria-labelledby="knowDesign">
+                    <h3 id="knowDesign">We Design</h3>
                     <p class="textoParrafo">Our teams takes the time to thoroughly
                         understand your portfolio's specific needs
                     </p>
                     <a href="./contacto.html">Learn More About Our Designs...</a>
 
                 </article>
-                <article>
-                    <h3>We Build</h3>
+                <article aria-labelledby="knowBuild">
+                    <h3 id="knowBuild">We Build</h3>
                     <p class="textoParrafo">Our teams takes the time to thoroughly
                         understand your portfolio's specific needs
                     </p>
                     <a href="./contacto.html">Learn More About Our Buildings...</a>
 
                 </article>
-                <article>
-                    <h3>We Maintain</h3>
+                <article aria-labelledby="knowMaintain">
+                    <h3 id="knowMaintain">We Maintain</h3>
                     <p class="textoParrafo">Our teams takes the time to thoroughly
                         understand your portfolio's specific needs
                     </p>
@@ -140,10 +140,10 @@
             </div>
 
             <div class="cards">
-                <article>
+                <article aria-labelledby="cardRepairs">
                     <img src="./images/services.jpg" alt="services">
                     <div>
-                        <h3>Maintenance & Repairs</h3>
+                        <h3 id="cardRepairs">Maintenance & Repairs</h3>
                         <p class="textoParrafo">We operate with the confidence that
                             our past has prepared us to embrace
                             with most challenging of portfolio</p>
@@ -153,10 +153,10 @@
                         </a>
                     </div>
                 </article>
-                <article>
+                <article aria-labelledby="cardBuilding">
                     <img src="./images/services.jpg" alt="services">
                     <div>
-                        <h3>Building Construction</h3>
+                        <h3 id="cardBuilding">Building Construction</h3>
                         <p class="textoParrafo">We operate with the confidence that
                             our past has prepared us to embrace
                             with most challenging of portfolio</p>
@@ -166,10 +166,10 @@
                         </a>
                     </div>
                 </article>
-                <article>
+                <article aria-labelledby="cardCivil">
                     <img src="./images/services.jpg" alt="services">
                     <div>
-                        <h3>Civil Engineering</h3>
+                        <h3 id="cardCivil">Civil Engineering</h3>
                         <p class="textoParrafo">We operate with the confidence that
                             our past has prepared us to embrace
                             with most challenging of portfolio</p>
@@ -187,26 +187,26 @@
         <div id="portfolioBg">
             <section id="portfolio">
                 <h2 style="display: none;">Portfolio</h2>
-                <article>
+                <article aria-labelledby="portDesigned">
                     <img src="./images/buildingIcon.png" alt="buildingIcon">
                     <span>1.5K</span>
-                    <h3>Designed buildings</h3>
+                    <h3 id="portDesigned">Designed buildings</h3>
                     <p class="textoParrafo">Our company was founded on the principles
                         of honest work and quality workmanship
                     </p>
                 </article>
-                <article>
+                <article aria-labelledby="portCompleted">
                     <img src="./images/construct.png" alt="construct">
                     <span>120+</span>
-                    <h3>Completed portfolio</h3>
+                    <h3 id="portCompleted">Completed portfolio</h3>
                     <p class="textoParrafo">Our company was founded on the principles
                         of honest work and quality workmanship
                     </p>
                 </article>
-                <article>
+                <article aria-labelledby="portHappy">
                     <img src="./images/constructor.png" alt="constructor">
                     <span>1.2K</span>
-                    <h3>Happy clients</h3>
+                    <h3 id="portHappy">Happy clients</h3>
                     <p class="textoParrafo">Our company was founded on the principles
                         of honest work and quality workmanship
                     </p>
@@ -233,7 +233,7 @@
 
 
             <div id="projectsArticles">
-                <article class="carrouselOut">
+                <article class="carrouselOut" aria-label="project1">
                     <div>
                         <span>New Construction Project</span>
                         <a class="flechas" href="">
@@ -242,7 +242,7 @@
                         </a>
                     </div>
                 </article>
-                <article>
+                <article aria-label="project2">
                     <div>
                         <span>New Construction Project</span>
                         <a class="flechas" href="">
@@ -251,7 +251,7 @@
                         </a>
                     </div>
                 </article>
-                <article>
+                <article aria-label="project3">
                     <div>
                         <span>New Construction Project</span>
                         <a class="flechas" href="">
@@ -260,7 +260,7 @@
                         </a>
                     </div>
                 </article>
-                <article class="carrouselOut">
+                <article aria-label="project4" class="carrouselOut">
                     <div>
                         <span>New Construction Project</span>
                         <a class="flechas" href="">
@@ -292,7 +292,7 @@
                 </div>
 
                 <div id="reviewCarrousel">
-                    <article>
+                    <article aria-label="review1">
                         <img src="./images/comillasLogo.PNG" alt="comillasLogo" class="comillasLogo">
                         <p class="textoParrafo">We have done five major commercial
                             projects with Prelude and they
@@ -309,7 +309,7 @@
                             </div>
                         </div>
                     </article>
-                    <article>
+                    <article aria-label="review2">
                         <img src="./images/comillasLogo.PNG" alt="comillasLogo" class="comillasLogo">
                         <p class="textoParrafo">We have done five major commercial
                             projects with Prelude and they
@@ -326,7 +326,7 @@
                             </div>
                         </div>
                     </article>
-                    <article>
+                    <article aria-label="review3">
                         <img src="./images/comillasLogo.PNG" alt="comillasLogo" class="comillasLogo">
                         <p class="textoParrafo">We have done five major commercial
                             projects with Prelude and they
@@ -345,7 +345,7 @@
 
 
                     </article>
-                    <article class="carrouselOut">
+                    <article aria-label="review4" class="carrouselOut">
                         <img src="./images/comillasLogo.PNG" alt="comillasLogo" class="comillasLogo">
                         <p class="textoParrafo">We have done five major commercial
                             projects with Prelude and they
@@ -372,7 +372,7 @@
             <img src="./images/faq.jpg" alt="faqImg">
             <div id="faqContent">
                 <h2>Building and Construction - FAQs</h2>
-                <article>
+                <article aria-label="faq1">
                     <div class="faqAccordion">
                         <span>What size construction project can Prelude manage?</span>
                     </div>
@@ -383,7 +383,7 @@
                         </p>
                     </div>
                 </article>
-                <article>
+                <article aria-label="faq2">
                     <div class="faqAccordion faqAccordionActive">
                         <span>How do you determine the end cost of the project?</span>
                     </div>
@@ -395,7 +395,7 @@
                         </p>
                     </div>
                 </article>
-                <article>
+                <article aria-label="faq3">
                     <div class="faqAccordion">
                         <span>Why should I purchase a home instead of renting?</span>
                     </div>
