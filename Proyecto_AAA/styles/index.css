@@ -394,7 +394,7 @@ footer {
 .inputAccount button {
     color: white;
     font-weight: bold;
-    background-color: #0575e6;
+    background-color: #0070e0;
     border: 0px;
     border-radius: 100px;
     width: 120px;
@@ -504,7 +504,7 @@ footer>div {
 
 #footerAddress a {
     text-decoration: none;
-    color: var(--amarillo);
+    color: var(--grisTitulo);
     font-size: 14px;
     font-weight: bold;
 }
