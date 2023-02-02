@@ -72,8 +72,8 @@
     --anchoMin: 400px;
     --grisBorde: #40516d;
     --grisBordeClaro: #d9d9e2;
-    --amarillo: #867700;
-    --amarilloOscuro: rgb(206, 142, 32);
+    --amarillo: #545e08;
+    --amarilloOscuro: #3d4404;
     --greyBg: #f8f9fb;
     --btnBlanco: white;
     --grisTitulo: #39374d;
@@ -394,7 +394,7 @@ footer {
 .inputAccount button {
     color: white;
     font-weight: bold;
-    background-color: #0070e0;
+    background-color: #0057ad;
     border: 0px;
     border-radius: 100px;
     width: 120px;
