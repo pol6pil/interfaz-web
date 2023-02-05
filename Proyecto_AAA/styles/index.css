@@ -515,6 +515,9 @@ footer>div {
     justify-content: space-between;
     padding: 20px 0px;
 }
+a:focus{
+    scale: 1.2;
+}
 
 #legal a {
     text-decoration: none;
