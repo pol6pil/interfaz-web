@@ -391,6 +391,10 @@ footer {
     margin-left: 20px;
 }
 
+.inputAccount input:focus {
+    background-color: rgb(222, 222, 222);
+}
+
 .inputAccount button {
     color: white;
     font-weight: bold;
